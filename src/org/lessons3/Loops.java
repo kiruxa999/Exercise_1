@@ -8,11 +8,11 @@ import java.util.Scanner;
 public class Loops {
     public static void main(String[] args) throws IOException {
 
-        System.out.println("Задание 1");
+        /*System.out.println("Задание 1");
         for (int i = 1; i <= 99; i++)
             if (i % 2 == 1) {
                 System.out.println(i);
-            }
+            }*/
 
         System.out.println("Задание 2");
         for (int i = 1; i <= 100; i++)
@@ -26,7 +26,7 @@ public class Loops {
 
 
 
-        //Задание 3
+        /*//Задание 3
         BufferedReader ex = new BufferedReader(new InputStreamReader(System.in));
         //String numb = ex.readLine();
         System.out.print("Введите первое число:        ");
@@ -40,7 +40,7 @@ public class Loops {
             System.out.println("Результат    " + true);
         } else {
             System.out.println("Результат    " + false);
-        }
+        }*/
 
 
 

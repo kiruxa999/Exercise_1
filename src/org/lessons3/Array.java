@@ -17,7 +17,7 @@ public class Array {
         intArray [5] = 5;
         intArray [6] = 3;
         System.out.println("Массив   " + Arrays.toString(intArray));
-        if (intArray [0] == intArray [5]) {
+        if (intArray [0] == intArray [6]) {
             System.out.println(true);
         } else {
             System.out.println(false);

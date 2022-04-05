@@ -23,15 +23,19 @@ public class Calculator {
 
         // int значение
         public int sum(int x, int y){
+
             return x + y;
         }
         public int raz(int x, int y){
+
             return x - y;
         }
         public int umn (int x, int y){
+
             return x * y;
         }
-        public int del (int x, int y){
+        public double del (int x, int y){
+
             return x / y;
         }
 
@@ -60,7 +64,7 @@ public class Calculator {
         public long umn (long x, long y){
             return x * y;
         }
-        public long del (long x, long y){
+        public double del (long x, long y){
             return x / y;
         }
     }

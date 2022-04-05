@@ -4,13 +4,19 @@ public class MainCalculator {
     public static void main(String[] args) {
         Calculator calc = new Calculator();
 
-        int z = calc.sum(1,2);
+        int u = calc.sum(15,25);
+        System.out.println(u);
+
+        int p = calc.raz(15,25);
+        System.out.println(p);
+
+        double z = calc.del(15d,25d);
         System.out.println(z);
 
         double x = calc.sum(3.6d, 4.7d);
         System.out.println(x);
 
-        long c = (long) calc.sum(3, 2);
+        double c = calc.sum(9223372036854L, 9223372036854L);
         System.out.println(c);
     }
 
