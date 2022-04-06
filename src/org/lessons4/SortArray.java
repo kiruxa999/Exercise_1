@@ -8,8 +8,9 @@ import java.util.Arrays;
 public class SortArray {
     public static void main(String[] args) throws IOException {
         int[] ints = new int [] {0,1,2,3};
+
         //ex1(ints);
-        ex2();
+        //ex2();
     }
 
 

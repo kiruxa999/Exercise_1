@@ -36,7 +36,7 @@ public class Calculator {
         }
         public double del (int x, int y){
 
-            return x / y;
+            return 1.0 * x / y;
         }
 
         // double вводим
@@ -50,7 +50,7 @@ public class Calculator {
             return x * y;
         }
         public double del (double x, double y){
-            return x / y;
+            return 1.0 * x / y;
         }
 
         // вводим long
@@ -65,7 +65,7 @@ public class Calculator {
             return x * y;
         }
         public double del (long x, long y){
-            return x / y;
+            return 1.0 * x / y;
         }
     }
 

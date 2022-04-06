@@ -13,6 +13,9 @@ public class MainCalculator {
         double z = calc.del(15d,25d);
         System.out.println(z);
 
+        double i = calc.del(78d,7.88d);
+        System.out.println(i);
+
         double x = calc.sum(3.6d, 4.7d);
         System.out.println(x);
 
