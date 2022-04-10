@@ -11,7 +11,7 @@ package org.lessons2class;
 
 
 
-public class Tree {
+    public class Tree {
     int year;
     String live;
     String name;
