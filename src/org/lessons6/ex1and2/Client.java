@@ -1,4 +1,4 @@
-package org.lessons6;
+package org.lessons6.ex1and2;
 
 public class Client extends Human{
     public String bank;
