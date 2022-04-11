@@ -12,17 +12,13 @@ public class StringLessons {
         String string2 = new String("JavaJava");
         String string3 = "olololo";
         String string4 = "Java is not a бяка";
-
-
-
-
         String string6 = "sihT si a tset gnirts";
 
 
-        //strCheck(string1, string2);
-        //strPalindrom(string3);
-        //cenzCheck(string4);
-        //revStr(string6);
+        strCheck(string1, string2);
+        strPalindrom(string3);
+        cenzCheck(string4);
+        revStr(string6);
         indxStr(string1, string2);
 
 
