@@ -5,11 +5,11 @@ import java.util.Scanner;
 public class Parent {
     int num = 5;
 
-    public String outPut () {
+    public void outPut () {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Введите число \n");
         System.out.println("Ваше число равно " + num);
-        return null;
+
     }
 
 }

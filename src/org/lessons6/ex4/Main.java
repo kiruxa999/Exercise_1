@@ -13,7 +13,7 @@ public class Main {
 
         Child child = new Child();
         System.out.println(child.num);
-        System.out.println(child.outPut());
+        child.outPut();
     }
 
 }

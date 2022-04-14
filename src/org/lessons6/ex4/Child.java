@@ -2,10 +2,10 @@ package org.lessons6.ex4;
 
 public class Child extends Parent{
 
+    @Override
+    public void outPut() {
 
-    public String outPut() {
+        System.out.println("Я прибавил 1. У Вас получилось \n" + (super.num + 1));
 
-        System.out.printf("Я прибавил 1. У Вас получилось %d \n", num + 1);
-        return null;
     }
 }

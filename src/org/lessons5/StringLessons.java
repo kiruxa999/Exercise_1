@@ -10,36 +10,45 @@ public class StringLessons {
 
         String string1 = "Java";
         String string2 = new String("JavaJava");
-        String string3 = "olololo";
+        String string3 = "Olololo";
         String string4 = "Java is not a бяка";
         String string6 = "sihT si a tset gnirts";
+        String string7 = "This is a test string stringstring";
 
 
-        strCheck(string1, string2);
+        strCheck(string7);
         strPalindrom(string3);
         cenzCheck(string4);
-        revStr(string6);
         indxStr(string1, string2);
+        revStr(string6);
 
 
     }
 
-    //Упражнение 1
-    public static void strCheck(String string1, String string2) {
-        if (string1.length() > string2.length()) {
+    //Упражнение 1 // самого длинного слова текста
+    public static void strCheck(String text) {
+
+        int s = text.length();
+        String[] words = text.split(" ");
+        for(String d: words) {
+            if (d.length() > words.length) {
+                System.out.println(d);
+            }
+        }
+
+        /*if (string1.length() > string2.length()) {
             System.out.println("Первая строка больше");
         } else {
             System.out.println("Вторая строка больше");
-        }
+        }*/
     }
 
-    //Упражение 2
-
+    //Упражение 2 //
     public static void strPalindrom(String word) {
         StringBuilder drow = new StringBuilder(word);
         String s = String.valueOf(drow.reverse());
 
-        if (word.equals(s)) {
+        if (word.equalsIgnoreCase(s)) {
             System.out.println("palindrom");
         } else {
             System.out.println("ne palindrom");
@@ -47,9 +56,10 @@ public class StringLessons {
 
     }
 
-    //Упражнение 3
+    //Упражнение 3 // бяка - как параметр
     public static void cenzCheck(String text) {
         System.out.println(text.replace("бяка", "[Цензура]"));
+
         /*String bad = "бяка";
         String good = "Цезура";
         String [] checkwrd = text.split(" ");

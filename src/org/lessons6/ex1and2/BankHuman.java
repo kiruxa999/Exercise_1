@@ -5,9 +5,10 @@ public class BankHuman extends Human{
     public String bank;
 
 
+
+
     public BankHuman(String name, String sename, String bank) {
-        this.name = name;
-        this.sename = sename;
+        super(name, sename);
         this.bank = bank;
     }
 

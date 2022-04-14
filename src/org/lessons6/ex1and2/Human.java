@@ -4,16 +4,16 @@ public abstract class Human {
     public String name;
     public String sename;
 
-
-    public String Human(String name, String sename) {
+//конструктор
+    public Human(String name, String sename) {
         this.name = name;
         this.sename = sename;
-        return name + sename;
+
     }
 
     public String nameHuman() {
-        this.name = name;
-        return null;
+
+        return name;
     }
 
     public String senameHuman(){
