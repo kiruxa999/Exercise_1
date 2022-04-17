@@ -4,8 +4,16 @@ public class Plane {
     public static String name = "Boeing";
 
 
-    class Wings {
+    static class Wings {
         int w = 2000;
+
+        public int getW() {
+            return w;
+        }
+
+        public void setW(int w) {
+            this.w = w;
+        }
 
         void outDisplayWeight() {
             System.out.println(w);
@@ -29,6 +37,17 @@ public class Plane {
         displayRight.w = 450;
         System.out.println("Вес правого крыла составляет " + displayRight.w);
 
+        System.out.println("______________________________________________");
+        System.out.println("__________________2 попытка___________________");
+
+        Plane.Wings wingLeft = new Plane.Wings();
+        wingLeft.setW(1050);
+        wingLeft.outDisplayWeight();
+
+        Plane.Wings wingRight = new Plane.Wings();
+        wingRight.setW(950);
+        wingRight.outDisplayWeight();
+
     }
 
 
@@ -39,12 +58,20 @@ public class Plane {
         }
     }
 
-    /*static class ShowWingLeft {
+    static class ShowWingLeft {
         int w = 550;
         void displayAllWings() {
             System.out.println("Вес левого крыла" + w);
         }
-    }*/
+    }
+
+
+    static class ShowWingRight {
+        int w = 450;
+        void displayAllWings() {
+            System.out.println("Вес правого крыла" + w);
+        }
+    }
 }
 
 
