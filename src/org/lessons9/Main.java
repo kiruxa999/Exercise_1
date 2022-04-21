@@ -25,16 +25,7 @@ public class Main {
 
 
 
-            Random rand = new Random();
-            List givenList = Arrays.asList("one", "two", "three", "four");
 
-            int numberOfElements = 10;
-
-            for (int i = 0; i < numberOfElements; i++) {
-                int randomIndex = rand.nextInt(givenList.size());
-                String randomElement = (String) givenList.get(randomIndex);
-                System.out.println(randomElement);
-        }
 
 
     }
