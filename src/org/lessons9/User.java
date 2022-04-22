@@ -37,7 +37,7 @@ public class User {
         for (Map.Entry<User, Integer> pair : map.entrySet()){
             User key = pair.getKey();
             Integer value = pair.getValue();
-            if(key.equals(scanner)){
+            if(key.getName().equals(scanner)){
                 result = value;
             }
         }
