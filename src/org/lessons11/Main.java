@@ -116,7 +116,7 @@ public class Main {
         try (BufferedReader reader = new BufferedReader(new FileReader(file))) {
             String input = null;
             while((input = reader.readLine()) != null){
-                System.out.println(input.replace(" ", "$")
+                /*System.out.println(input.replace(" ", "$")
                                         .replace(",", "$")
                                         .replace("—", "$")
                                         .replace("(", "$")
@@ -124,7 +124,8 @@ public class Main {
                                         .replace(".", "$")
                                         .replace(";", "$")
                                         .replace("-", "$")
-                );
+                );*/
+                System.out.println(input.replaceAll("[^а-яА-Яa-zA-Z\\d]", "\\$"));
             }
         } catch (IOException e) {
             System.out.println("Error: " + e.getMessage());
